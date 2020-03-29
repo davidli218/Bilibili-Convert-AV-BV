@@ -4,7 +4,6 @@ from tkinter import messagebox as tkm
 import tkinter.font as tkf
 
 if __name__ == '__main__':
-
     def convert():
         var_result.set('')
         input_id = var_input.get()
@@ -18,8 +17,9 @@ if __name__ == '__main__':
 
     # 创建主窗口
     window = tk.Tk()
-    window.title('BV2AV  david_ri@163.com')
+    window.title('B站 AV/BV号转换器')
     window.geometry('450x300')
+    window.iconbitmap('BVid2Aid.ico')
     window.resizable(width=False, height=False)
 
     # 常量&变量
